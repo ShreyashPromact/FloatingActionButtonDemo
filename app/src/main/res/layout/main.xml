@@ -10,6 +10,12 @@
         layout="@layout/includes_toolbar"
         android:id="@+id/toolbar" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:src="@drawable/logo_grey"/>
+
     <View
         android:id="@+id/overlay"
         android:visibility="gone"
