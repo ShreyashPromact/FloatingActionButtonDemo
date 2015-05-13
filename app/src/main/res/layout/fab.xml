@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/fab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/fab_action_3"
+            style="@style/FloatingActionButton.Mini"
+            android:src="@drawable/plus"
+            android:layout_above="@+id/fab_action_2"
+            android:layout_alignEnd="@+id/fab"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@id/fab_action_2"
+            style="@style/FloatingActionButton.Mini"
+            android:src="@drawable/plus"
+            android:layout_above="@+id/fab_action_1"
+            android:layout_alignEnd="@id/fab"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@id/fab_action_1"
+            style="@style/FloatingActionButton.Mini"
+            android:src="@drawable/plus"
+            android:layout_above="@id/fab"
+            android:layout_alignEnd="@id/fab"
+            android:contentDescription="@null" />
+
+        <ImageButton
+            android:id="@id/fab"
+            style="@style/FloatingActionButton"
+            android:src="@drawable/plus"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@null"
+            android:visibility="visible"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+</merge>
